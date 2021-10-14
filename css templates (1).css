@@ -1,0 +1,835 @@
+/***template administrativo***/
+
+.corpodopost {
+  width: 650px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: justify;
+  margin: 0px auto;
+  background-color: #0a0a0a;
+  color: #cccccc;
+  line-height: 19px;
+  font-size: 14px;
+  border: 1px solid #E0E0E0;
+}
+
+.corpodopost titulo {
+  display: block;
+  text-align: left;
+  font-family: roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  font-size: 45px;
+  line-height: 45px;
+  padding: 45px 40px;
+  width: 620px;
+  margin: -30px -30px 30px;
+  background-color: var(--accent);
+}
+
+.corpodopost titulo b {
+  color: #f4f4f4;
+  letter-spacing: -4px;
+  font-weight: 900;
+  display: block;
+  font-size: 55px;
+}
+
+.corpodopost introducao {
+  display: block;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  background-color: #0a0a0a;
+  font-size: 14px;
+  font-family: roboto;
+}
+
+.corpodopost introducao b {
+color: #f4f4f4; 
+}
+
+.corpodopost separador {
+  border: 5px solid #7b7a7a;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.corpodopost separador:after {
+content: "";
+background: #333;
+padding: 5px;
+position: absolute;
+margin-top: -5px;
+margin-left: -5px;
+width: 200px;
+}
+
+.corpodopost icone {
+background-color: #141414; 
+font-size: 30px;
+width: 190px!important;
+height: 190px;
+display: block;
+color: white;
+margin-top: -240px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
+background-size: 95px!important;
+background-position: 60px 60px!important;
+background-repeat: no-repeat!important;
+padding: 0px 0px!important;
+margin-left: 510px!important;
+}
+
+.corpodopost icone i {
+margin-left: 5px;
+margin-top: 10px;
+font-size:70px;
+position: absolute;
+z-index: 999;
+}
+
+.corpodopost subtitulo {
+  color: #ffffff;
+  display: block;
+  font-size: 31px;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin-bottom: 25px;
+  border-right: 30px solid var(--accent);
+  margin-right: -30px;
+  margin-left: -30px;
+  background-color: var(--accent);
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.corpodopost dl.codebox, .corpodopost blockquote {background-color: #1c1c1c;}
+
+.corpodopost borda {
+color: white;
+padding: 17px;
+padding-right: 55px;
+float: right;
+margin-top: -10px;
+margin-right: -40px;
+transform: skew(-15deg);
+background-color: f4f4f4; 
+}
+
+.corpodopost borda i {transform: skew(15deg);
+margin-left: 10px;;}
+
+#smiley-box {display: none;}
+
+/**Ficha que só a Angela Usa**/
+
+.corpodaficha {
+  width: 630px!important;
+  padding: 0px;
+  border: 0px;
+  outline: 15px solid #060606;
+  margin-bottom: 15px;
+  background-color: #0a0a0a;
+  margin-top: -15px;
+  overflow: hidden;
+}
+
+.nomedopersonagem {
+background-image: url(https://image.ibb.co/dMFuMc/flower.png);
+background-repeat: no-repeat;
+background-position: right center;
+background-color: #a9a9a9;
+background-size: 85%;
+width: 610px;
+text-align: right;
+font-style: italic;
+padding: 80px 10px 16px;
+letter-spacing: -4px;
+font-size: 65px;
+font-weight: 900;
+font-family: roboto;
+color: #f1f1f1;
+margin: 0px -2px;
+}
+
+.iconedopersonagem {
+width: 100px;
+height: 100px;
+background-image: url(http://placehold.it/100x100);
+background-size: 100%;
+border-radius: 100px;
+border: 10px solid #666;
+position: absolute;
+margin: 20px 35px;
+margin-top: -110px;
+}
+
+.viladopersonagem {
+background-image: url(https://image.ibb.co/dMFuMc/flower.png);
+background-repeat: no-repeat;
+background-position: right center;
+background-color: #a9a9a9;
+width: 400px;
+text-align: right;
+padding: 30px 20px;
+letter-spacing: -3px;
+font-style: italic;
+font-size: 40px;
+font-weight: 900;
+font-family: roboto;
+color: transparent;
+margin-left: -189px;
+}
+
+.imagemdaficha {
+width: 630px;
+height: 300px;
+background-image: url(http://placehold.it/630x300);
+background-size: 100%;
+}
+
+.infodopersonagem {
+  background: url(https://i.imgur.com/X3kic9Z.png);
+  width: 210px;
+  height: 490px;
+  overflow: hidden;
+  padding-top: 30px;
+  margin-top: -78px;
+  margin-left: 418px;
+  border-left: 1px solid #1d1d1d;
+}
+
+.infodopersonagem2 {
+background: url(https://i.imgur.com/X3kic9Z.png);
+width: 210px;
+height: 379px;
+margin-bottom: -40px;
+overflow: auto;
+padding-top: 30px;
+margin-left: 0px;
+display: block;
+position: absolute;
+}
+
+.textodopersonagem3 {
+background: #d0181800;
+text-align: justify;
+padding: 20px;
+width: 550px;
+height: 428px;
+font-size: 12px;
+line-height: 17px;
+margin-top: -95px;
+margin-left: -45px;
+font-family: roboto;
+font-weight: 400;
+}
+
+.textodopersonagem3-1 {
+font-size: 12px;
+line-height: 17px;
+margin: 0px -5px 0px 215px;
+margin-top: 35px;
+height: 370px;
+width: 380px;
+overflow: auto;
+padding-right: 20px;
+}
+
+.infoanglet1-1 {
+  width: 150px;
+  text-align: right;
+  font-family: roboto condensed;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  margin-top: -11px;
+  border-radius: 0px;
+  padding: 5px 10px;
+  background: #0a0a0a;
+  border: 1px solid #4c4c4c;
+  border-left: 6px solid #505050;
+}
+
+.textodopersonagem1 {
+position: absolute;
+background: #d0181800;
+text-align: justify;
+padding: 20px;
+width: 400px;
+height: 339px;
+font-size: 12px;
+line-height: 17px;
+margin-top: -540px;
+margin-left: 00px;
+font-family: roboto;
+font-weight: 400;
+}
+
+.textodopersonagem1-2 {
+font-size: 12px;
+line-height: 17px;
+margin: -0px 15px 0px 0px;
+margin-top: 35px;
+height: 397px;
+overflow: auto;
+padding-right: 10px;
+}
+
+.titulodaficha {
+background-image: url(https://image.ibb.co/dMFuMc/flower.png);
+background-repeat: no-repeat;
+background-position: right center;
+background-color: #a9a9a9;
+width: 570px;
+text-align: right;
+padding: 30px 30px;
+text-transform: lowercase;
+letter-spacing: -4px;
+font-style: italic;
+font-size: 50px;
+font-weight: 900;
+font-family: roboto;
+color: transparent;
+margin: 0px -2px;
+margin-top: -55px;
+}
+
+.textodopersonagem2 {
+background: ;
+text-align: justify;
+padding: 10px;
+width: 650px;
+height: 420px;
+margin-top: -79px;
+padding-top: 0px;
+font-size: 12px;
+line-height: 17px;
+margin-left: 10px;
+text-align: justify;
+}
+
+.textodopersonagem2-1 {
+  background: #0a0a0a;
+  text-align: justify;
+  padding: 10px;
+  border: 20px solid #0a0a0a;
+  width: 640px;
+  height: 345px;
+  margin-top: 20px;
+  padding-top: 0px;
+  font-size: 12px;
+  line-height: 17px;
+  overflow: auto;
+  margin-left: -30px;
+  text-align: justify;
+}
+
+.subtituloficha {
+border-bottom: 1px solid #E0E0E0;
+font-family: roboto;
+font-size: 25px;
+padding-bottom: 10px;
+text-transform: lowercase;
+font-style: italic;;
+font-weight: 900;
+letter-spacing: -1px;
+margin-bottom: -10px;
+color: darkgrey;
+}
+
+.fa-tabs-wrapper {
+  margin: -5px;
+}
+
+/**Modelo de ficha**/
+
+.fichadepersonagem {
+  background: url(https://i.imgur.com/KMVSJei.png);
+  padding: 15px;
+  width: 600px;
+  margin: auto;
+  border: 10px solid white;
+  outline: 1px solid #e0e0e0;
+  box-shadow: 0px 0px 10px #eaeaea;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.fichadepersonagem .imagemdaficha {
+width: 630px!important;
+height: 300px;
+background-image: url(http://placehold.it/600x300);
+background-size: cover!important;
+margin-left: -15px;
+margin-top: -15px;
+}
+
+.dadosdopersonagem {
+color: white;
+font-family: rubik;
+text-transform: uppercase;
+font-weight: 600;
+text-align: left;
+font-size: 30px;
+margin: -38px -15px;
+margin-bottom: 0px;
+padding: 20px 30px;
+height: 110px;
+}
+
+.dadosdopersonagem nome {
+margin-top: -115px;
+margin-left: 130px;
+font-size: 35px;
+letter-spacing: -1px;
+display: block;
+}
+
+.dadosdopersonagem titulo {
+margin-top: -120px;
+margin-left: 130px;
+font-size: 35px;
+letter-spacing: -2px;
+display: block;
+}
+
+.dadosdopersonagem sobrenome {
+margin-left: 130px;
+margin-top: -12px;
+font-size: 20px;
+letter-spacing: -0.5px;
+display: block;
+font-family: rubik;
+}
+
+.dadosdopersonagem trama {
+margin-left: 130px;
+margin-top: -8px;
+font-size: 12px;
+letter-spacing: -0.5px;
+display: block;
+font-family: roboto condensed;
+}
+
+.dadosdopersonagem tipodetopico {
+font-size: 12px;
+margin-left: 130px;
+margin-top: -6px;
+letter-spacing: 0;
+display: block;
+padding-top: 7px;
+border-top: 1px solid white;
+width: 130px;
+font-family: roboto condensed;
+}
+
+.dadosdopersonagem duracao {
+font-size: 12px;
+margin-left: 120px;
+margin-top: -13px;
+letter-spacing: 0;
+display: block;
+padding-top: 7px;
+border-top: 1px solid white;
+width: 130px;
+font-family: roboto condensed;
+}
+
+.finaldaficha {
+    border: solid 1px #e3e3e3;
+    background-color: #FAFAFA;
+    font: bold 11px Roboto Condensed;
+    line-height: 15px;
+    text-align: right;
+    padding: 19px 22px;
+    text-transform: uppercase;
+    margin: -15px;
+    margin-top: -37px;
+}
+
+.iconedaficha {
+width: 95px;
+height: 95px;
+border: 8px solid white;
+background-image: url(http://placehold.it/100x100);
+background-size: 100%;
+margin-left: -10px;
+margin-top: -1px;
+margin-bottom: -18px;
+}
+
+.dadosdopersonagem3 {
+background: #ffffff;
+height: 500px;
+width: 365px;
+overflow: auto;
+padding: 20px;
+text-align: justify;
+margin-top: -508px;
+margin-left: 208px;
+margin-bottom: -36px;
+border-left: 1px solid #E0E0E0;
+border-right: 1px solid #E0E0E0;
+border-bottom: 0px solid #E0E0E0;
+font-size: 11px;
+line-height: 16px;
+}
+
+.dadosdopersonagem3-2 {
+background: #ffffff;
+height: 519px;
+width: 370px;
+overflow: auto;
+padding: 20px;
+text-align: justify;
+margin-top: -45px;
+margin-right: -15px;
+margin-bottom: -36px;
+border-left: 1px solid #E0E0E0;
+border-right: 1px solid #E0E0E0;
+border-bottom: 0px solid #E0E0E0;
+font-size: 11px;
+line-height: 16px;
+position: relative;
+float: right;
+}
+
+.dadosdopersonagem2 {
+width: 190px;
+height: 450px;
+margin-top: -19px;
+margin-left: -415px;
+border: 1px solid transparent;
+border-left: 0px;
+border-top: 0px;
+padding: 0px;
+}
+
+.dadosdopersonagem2 div {
+border: 1px solid #E0E0E0;
+margin: -10px 0px;
+padding: 10.5px 8px;
+text-align: right;
+font: 700 10px roboto;
+text-transform: uppercase;
+background: white;
+display: blockblock;
+width: 180px;
+}
+
+.dadosdopersonagem2 div1 {
+border: 1px solid #E0E0E0;
+background: #F0F0F0;
+margin: -9px 0px;
+padding: 15px 15px;
+text-align: left;
+font: 900 24px roboto;
+text-transform: uppercase;
+letter-spacing: -2px;
+display: block;
+width: 166px;
+color: #B1B1B1;
+}
+
+.dados3 .dadosdopersonagem2 div {
+border: 1px solid #E0E0E0;
+margin: -10px 0px;
+padding: 10.5px 8px;
+text-align: right;
+font: 700 9px roboto;
+text-transform: uppercase;
+background: white;
+display: blockblock;
+width: 200px;
+}
+
+.dados3 .dadosdopersonagem2 div1 {
+border: 1px solid #E0E0E0;
+background: #F0F0F0;
+margin: -9px 0px;
+padding: 15px 15px;
+text-align: left;
+font: 900 24px roboto;
+text-transform: uppercase;
+letter-spacing: -2px;
+display: block;
+width: 200px;
+color: #B1B1B1;
+}
+
+.dados3 .dadosdopersonagem2 {
+width: 214px;
+height: 530px;
+margin-top: -7px!Important;
+margin-left: -11px;
+border: 1px solid transparent;
+border-left: 0px;
+border-top: 0px;
+padding: 0px;
+padding-top: 30px;
+overflow-x: hidden!important;
+overflow: auto;
+position: absolute;
+}
+
+.dados3 .dadosdopersonagem2 div {
+border: 1px solid #E0E0E0;
+margin: -10px 0px;
+padding: 10.5px 8px;
+text-align: right;
+font: 700 9px roboto;
+text-transform: uppercase;
+background: white;
+display: blockblock;
+width: 165px;
+}
+
+.dados3 .dadosdopersonagem2 div1 {
+border: 1px solid #E0E0E0;
+background: #F0F0F0;
+margin: -9px 0px;
+padding: 15px 15px;
+text-align: left;
+font: 900 24px roboto;
+text-transform: uppercase;
+letter-spacing: -2px;
+display: block;
+width: 151px;
+color: #B1B1B1;
+}
+
+.dadosdopersonagem2 i {
+float: left;
+display: block;
+margin-top: -12px;
+margin-left: -9px;
+color: #b1b1b1;
+padding:  9px 11px;
+background: #f0f0f0;
+border: 1px solid #E0E0E0;
+font-size: 16px;
+width: 20px;
+position: relative;
+text-align: center;
+}
+
+.dadosdopersonagem2 c {
+float: left;
+margin-left: 10px;
+font-size: 9px;
+}
+
+.dados2 {margin-top: 14px; display: none;}
+.dados3 {margin-top: -107px;display: none;}
+.dados4 {display: none;}
+
+.titdaficha {
+background-color: #444!important;
+text-align: left;
+color: white;
+font-family: roboto condensed;
+font-size: 20px;
+letter-spacing: -3px;
+text-transform: uppercase;
+font-weight: 900;
+letter-spacing: 0px;
+margin-top: -90px!important;
+margin-left: -15px;
+padding: 25px 30px;
+width: 580px;
+}
+
+.histdopersonagem {
+background: white;
+border-bottom: 1px solid #E0E0E0;
+border-left: 1px solid #E0E0E0;
+border-right: 1px solid #E0E0E0;
+text-align: justify;
+padding: 30px;
+font-size: 12px;
+line-height: 18px;
+margin-top: -16px!important;
+height: 410px;
+overflow: auto;
+}
+
+.outrosdopersonagem {
+background: white;
+border-bottom: 1px solid #E0E0E0;
+border-left: 1px solid #E0E0E0;
+border-right: 1px solid #E0E0E0;
+text-align: justify;
+padding: 30px;
+font-size: 12px;
+line-height: 18px;
+height: 497px;
+overflow: auto;
+margin: -143px -15px 0px!important;
+}
+
+.outrosdopersonagem quadro {
+display: block;
+border: 1px solid #E0E0E0;;
+background: #f3f3f3ab;
+padding: 30px;
+margin-left: -5px;
+}
+
+.outrosdopersonagem missoes {
+display: block;
+border: 1px solid #E0E0E0;;
+background: #f3f3f340;
+padding: 30px;
+margin-left: -5px;
+line-height: 25px;
+font-weight: 900;
+color: #676565 !important;
+margin-bottom: -15px;
+}
+
+.outrosdopersonagem missoes b {
+float: left;
+margin-right: 10px;
+line-height: 25px;
+font-size: 20px;
+text-align: left;
+border-bottom: 0px;
+}
+
+.histdopersonagem b, .dadosdopersonagem3 b, .outrosdopersonagem b, .dadosdopersonagem3-2 b {
+font-size: 20px;
+line-height: 15px;
+display: block;
+font-weight: 900;
+text-transform: uppercase;
+border-bottom: 1px solid #e0e0e0;
+color: #b5b5b5;
+padding-left: 5px;
+padding-bottom: 10px;
+margin-bottom: -10px;
+font-family: roboto condensed;
+}
+
+.histdopersonagem titulo {
+font-size: 20px;
+line-height: 15px;
+display: block;
+font-weight: 900;
+text-transform: uppercase;
+border-bottom: 1px solid #DDD;
+color: #b5b5b5;
+padding-left: 5px;
+padding-bottom: 10px;
+margin-bottom: -10px;
+font-family: roboto condensed;
+}
+
+#celC {
+border: solid 1px #e3e3e3;
+height: 55px;
+width: 30px;
+padding: 0px 15px;
+background-color: #ffffff;
+cursor: pointer;
+font-size: 30px;
+display: flex;
+align-items: center;
+margin-left: -10px!important;
+}
+
+#celC e {
+display: block;
+margin-left: -7px!important;
+width: 55px;
+text-align: center;
+}
+
+.dadosdopersonagem table {
+position: absolute;
+width: 350px;
+margin-top: -180px;
+margin-left: 285px;
+}
+
+.dadosdopersonagem td {display: inline-block;margin: 10px;!important;}
+.c1 {background-color: #f1f1f1;}
+.dadosdopersonagemheight {height: 520px;}
+
+.qualidades {
+font-size: 9px;
+line-height: 20px;
+text-transform: uppercase;
+font-weight: 900;
+padding-left: 12px;
+width: 180px;
+}
+
+.qualidades b, .defeitos b {
+color: #dc3345; 
+font-size: 12px;
+display: block;
+float: left;
+margin-left: -20px;
+margin-top: 3px;
+font-family: roboto;
+border-bottom: 0px solid white;
+}
+
+.defeitos {
+font-size: 9px;
+line-height: 20px;
+text-transform: uppercase;
+font-weight: 900;
+padding-left: 12px;
+width: 160px;
+}
+
+.dadosdopersonagem3-2 table {
+margin-top: -30px;
+margin-bottom: -0px;
+background: white;
+border: 1px solid #E0E0E0;
+padding-left: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: -10px;
+}
+
+.jutsusdopersonagem1, .jutsusdopersonagem2, .jutsusdopersonagem3, .jutsusdopersonagem4 {
+background: white;
+border-bottom: 1px solid #E0E0E0;
+border-left: 1px solid #E0E0E0;
+border-right: 1px solid #E0E0E0;
+text-align: justify;
+padding: 30px;
+font-size: 12px;
+line-height: 18px;
+height: 432px;
+overflow: auto;
+}
+
+.jutsusdopersonagem1 {margin: -35px -15px 0px!important;}
+.jutsusdopersonagem2 {margin: -89px -15px 0px!important;}
+.jutsusdopersonagem3 {margin: -108px -15px 0px!important;}
+.jutsusdopersonagem4 {margin: -144px -15px 0px!important;}
+
+/*...........cursor..............*/
+
+body, a, a:hover {
+cursor: 
+url('http://cur.cursors-4u.net/special/spe-2/spe114.cur'), progress;
+}
+
+a:hover {
+cursor: url('http://cur.cursors-4u.net/special/spe-2/spe114.cur'), auto;
+}
