@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('https://dl.dropbox.com/s/7w052zafqvcz5v8/Akatsukirpg.eot');
-  src:  url('https://dl.dropbox.com/s/7w052zafqvcz5v8/Akatsukirpg.eot') format('embedded-opentype'),
-    url('https://dl.dropbox.com/s/vqaxq2p11jlxrlw/Akatsukirpg.ttf') format('truetype'),
-    url('https://dl.dropbox.com/s/bjmwk689xarfpjz/Akatsukirpg.woff') format('woff'),
-    url('https://dl.dropbox.com/s/m9z3lmtpch9aaas/Akatsukirpg.svg') format('svg');
+  src:  url('https://cdn.statically.io/gh/hattorishion/templates/main/Akatsukirpg.eot');
+  src:  url('https://cdn.statically.io/gh/hattorishion/templates/main/Akatsukirpg.eot') format('embedded-opentype'),
+    url('https://cdn.statically.io/gh/hattorishion/templates/main/Akatsukirpg.ttf') format('truetype'),
+    url('https://cdn.statically.io/gh/hattorishion/templates/main/Akatsukirpg.woff') format('woff'),
+    url('https://cdn.statically.io/gh/hattorishion/templates/main/Akatsukirpg.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
